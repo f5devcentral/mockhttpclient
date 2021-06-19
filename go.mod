@@ -1,4 +1,4 @@
-module github.com/subbuv26/mockhttpclient
+module github.com/f5devcentral/mockhttpclient
 
 go 1.16
 

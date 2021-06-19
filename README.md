@@ -4,6 +4,8 @@
 
 # Mock HTTP Client
 
+(Originally imported from: https://github.com/subbuv26/mockhttpclient.git)
+
 A Mock HTTP Client package for efficient testing of REST Client response handling scenarios. 
 Mock HTTP client acts as an HTTP client and serves requests as per the needs of tests.
 This mock HTTP client simply responds with preconfigured HTTP responses when ever http requests are made.
@@ -14,7 +16,7 @@ as the client responds with desired responses, the code that gets tested receive
 ## Installation
 
 ```
-go get github.com/subbuv26/mockhttpclient
+go get github.com/f5devcentral/mockhttpclient
 ```
 
 ## Usage
@@ -28,7 +30,7 @@ The function to be tested (createAndVerifyResource) has the below functionality
 
 ```go
 
-import mockhc "github.com/subbuv26/mockhttpclient"
+import mockhc "github.com/f5devcentral/mockhttpclient"
 
 resp1 := &http.Response{
     StatusCode: 200,
@@ -70,7 +72,7 @@ if ok {
 The function to be tested (createResources) creates N number of resources by calling continuous POST calls
 
 ```go
-import mockhc "github.com/subbuv26/mockhttpclient"
+import mockhc "github.com/f5devcentral/mockhttpclient"
 
 N := 5
 
