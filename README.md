@@ -1,5 +1,5 @@
-[![GoDoc](https://godoc.org/github.com/subbuv26/mockhttpclient?status.svg)](https://pkg.go.dev/github.com/subbuv26/mockhttpclient)
-[![Go Report Card](https://goreportcard.com/badge/github.com/subbuv26/mockhttpclient)](https://goreportcard.com/report/github.com/subbuv26/mockhttpclient)
+[![GoDoc](https://pkg.go.dev/badge/github.com/f5devcentral/mockhttpclient?utm_source=godoc)](https://pkg.go.dev/github.com/f5devcentral/mockhttpclient)
+[![Go Report Card](https://goreportcard.com/badge/github.com/f5devcentral/mockhttpclient)](https://goreportcard.com/report/github.com/f5devcentral/mockhttpclient)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Mock HTTP Client
