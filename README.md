@@ -1,8 +1,10 @@
-[![GoDoc](https://godoc.org/github.com/subbuv26/mockhttpclient?status.svg)](https://pkg.go.dev/github.com/subbuv26/mockhttpclient)
-[![Go Report Card](https://goreportcard.com/badge/github.com/subbuv26/mockhttpclient)](https://goreportcard.com/report/github.com/subbuv26/mockhttpclient)
+[![GoDoc](https://pkg.go.dev/badge/github.com/f5devcentral/mockhttpclient?utm_source=godoc)](https://pkg.go.dev/github.com/f5devcentral/mockhttpclient)
+[![Go Report Card](https://goreportcard.com/badge/github.com/f5devcentral/mockhttpclient)](https://goreportcard.com/report/github.com/f5devcentral/mockhttpclient)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Mock HTTP Client
+
+(Originally imported from: https://github.com/subbuv26/mockhttpclient.git)
 
 A Mock HTTP Client package for efficient testing of REST Client response handling scenarios. 
 Mock HTTP client acts as an HTTP client and serves requests as per the needs of tests.
@@ -14,7 +16,7 @@ as the client responds with desired responses, the code that gets tested receive
 ## Installation
 
 ```
-go get github.com/subbuv26/mockhttpclient
+go get github.com/f5devcentral/mockhttpclient
 ```
 
 ## Usage
@@ -28,7 +30,7 @@ The function to be tested (createAndVerifyResource) has the below functionality
 
 ```go
 
-import mockhc "github.com/subbuv26/mockhttpclient"
+import mockhc "github.com/f5devcentral/mockhttpclient"
 
 resp1 := &http.Response{
     StatusCode: 200,
@@ -70,7 +72,7 @@ if ok {
 The function to be tested (createResources) creates N number of resources by calling continuous POST calls
 
 ```go
-import mockhc "github.com/subbuv26/mockhttpclient"
+import mockhc "github.com/f5devcentral/mockhttpclient"
 
 N := 5
 
